@@ -34,7 +34,7 @@ export type User = {
     stock: number;
   };
   
-  export type OrderItem=Omit<CartItem ,"stock"> &{_id:string}
+  export type OrderItem = Omit<CartItem, "stock"> & { _id: string };
    
 
   export type Order={
