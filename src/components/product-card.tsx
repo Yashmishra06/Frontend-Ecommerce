@@ -1,4 +1,4 @@
-import React from "react";
+
 import { FaExpandAlt, FaPlus } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { CartItem } from "../types/types"; // Adjust this path if necessary

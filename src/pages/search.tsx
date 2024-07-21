@@ -6,7 +6,7 @@ import {
 } from "../redux/api/productAPI";
 import { CustomError } from "../types/api-types";
 import toast from "react-hot-toast";
-import { Skeleton } from "../components/loader";
+//import { Skeleton } from "../components/loader";
 import { CartItem } from "../types/types";
 import { addToCart } from "../redux/reducer/cartReducer";
 import { useDispatch } from "react-redux";
@@ -30,7 +30,7 @@ const Search = () => {
   const [page, setPage] = useState(1);
 
   const {
-    isLoading: productLoading,
+   // isLoading: productLoading,
     data: searchedData,
     isError: productIsError,
     error: productError,
